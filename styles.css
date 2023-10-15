@@ -1,0 +1,15 @@
+.banner {
+  background-color: lightblue;
+  color: black;
+  padding: 10px;
+  text-align: center;
+}
+
+.banner a {
+  color: black;
+  text-decoration: none;
+}
+
+.banner a:hover {
+  color: blue;
+}
