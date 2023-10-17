@@ -13,6 +13,16 @@ header {
   text-align: left;
 }
 
+a {
+  text-decoration: none; /* Remove the underline on all links */
+  color: #0073e6; /* Set the default link color */
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+a:hover {
+  color: #ff6600; /* Change the link color on hover */
+}
+
 .italic {
   font-style: italic;
 }
