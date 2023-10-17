@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("Images/Italy-flag.png"); /* Set the Italian flag as the background */
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 40px;
+  text-align: left;
+}
+
+a {
+  text-decoration: none; /* Remove the underline on all links */
+  color: #0073e6; /* Set the default link color */
+  transition: color 0.3s; /* Add a smooth color transition effect */
+}
+
+a:hover {
+  color: #ff6600; /* Change the link color on hover */
+}
+
+.italic {
+  font-style: italic;
+}
+
+.custom-margin {
+  margin: 10px;
+  text-align: center;
+  padding: 4px;
+}
+
+.transparent-table {
+  border-collapse: collapse;
+  width: 80%; /* Adjust the width to your preference */
+  margin: 20px auto; /* Center the table on the page */
+  border: 2px solid #000; /* Border style and color */
+}
+
+.transparent-table th,
+.transparent-table td {
+  border: 1px solid #000; /* Optional: Add borders to table cells */
+  padding: 4px; /* Optional: Add padding to table cells */
+}
+
+.italy-flag-bg {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.image-with-border {
+  display: flex; /* Use flexbox layout */
+  justify-content: space-evenly; /* Spread images evenly in the container */
+}
+.image-with-border img {
+  border: 10px solid #000; /* Black border around images */
+  display: inline-block;
+  margin: 10px;
+  width: 400px; /* Set the desired width */
+  height: auto; /* Automatically maintain the aspect ratio */
+}
+/* Additional CSS styling as needed */
