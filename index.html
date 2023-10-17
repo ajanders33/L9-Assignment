@@ -3,56 +3,74 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="This is a webpage to practice HTML" />
-    <link rel="stylesheet" href="styles.css" />
-    <title>Lesson 6 Webpage</title>
   </head>
+  
+    <title>Italy Travel Itinerary</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  
   <body>
     <header>
-      <h1>
-        <span style="color: #3366ff">
-            <strong>Welcome to My Lesson 6 Web Page</strong></span>
-      </h1>
-      <p>
-        <strong>My Name:</strong> Tony Anderson <br />
-        <strong>Course:</strong> CSC-3110E12 - HTML, CSS and JavaScript <br />
-        <strong>Lesson:</strong> 6 - HTML Semantic Markup and CSS
-      </p>
+      <style>
+        /* Center the h1 element horizontally and vertically */
+        h1 {
+          text-align: center; /* Center horizontally */
+          transform: translateY(-50%); /* Adjust for vertical centering */
+        }
+      </style>
+      <h1>Welcome to Rome and Florence, Italy</h1>
+      <p class="italic">When visiting these two beautiful cities in Italy, you'll find a wealth of experiences to enjoy. In Rome, explore ancient history at the Colosseum, Roman Forum, and Pantheon. Don't forget to make a wish at the Trevi Fountain. In Florence, immerse yourself in Renaissance art at the Uffizi Gallery and admire the stunning architecture of the Florence Cathedral. Be sure to savor delicious Italian cuisine and gelato along the way. These cities offer a rich blend of history, culture, and culinary delights that will make your visit unforgettable. For more information and recommendations, visit <a href="https://www.tripadvisor.com" target="_blank" rel="noopener">TripAdvisor</a>.</p>
     </header>
 
-    <main>
-      <section>
-        <p>
-          <strong>
-            <h2><span style="color: #3366ff">About Semantic Markup</span></strong></h2>
-        </p>
-        <p>
-          You will hear the word semantic used often when you read or hear about
-          HTML.&nbsp; The core concept behind semantic markup is
-          <span style="color: #ff0000"
-            >to ensure that you use the most meaningful HTML elements available
-            to describe the content you are marking up.</span>
-        </p>
-      </section>
+    <div class="italy-flag-bg">
+      <!-- Your travel itinerary content goes here -->
 
-      <section>
-        <p>
-          <strong
-            ><span style="color: #3366ff"
-              >Text-Based HTML Elements</span
-            ></strong
-          >
-        </p>
-        <ul style="list-style-type: circle">
-          <li>Headings</li>
-          <li>Paragraphs</li>
-          <li>Inline text elements</li>
-          <li>Lists</li>
-        </ul>
-        <div class="banner">
-            For more information about HTML markup, visit the <a href="https://www.w3schools.com/">W3Schools website</a>.
-        </div>
-      </section>
-    </main>
+      <div class="custom-margin">
+      <h2>Day 1: Arrival in Rome</h2>
+      <p>Begin your adventure in the beautiful city of Rome.</p>
+    </div>
+    <div class="custom-margin">
+      <h2>Day 2: Exploring Florence</h2>
+      <p>Visit the stunning art and architecture of Florence.</p>
+    </div>
+        <table class="transparent-table">
+          <tr>
+            <th>Date:</th>
+            <th>Location:</th>
+            <th>Activities:</th>
+            <th>Notes:</th>
+          </tr>
+          <tr>
+            <td>Day 1</td>
+            <td>Italy, Rome</td>
+            <td>
+              <ul>
+                <li>Visit Colosseum</li>
+                <li>The Pantheon</li>
+                <li>Trevi Fountain</li>
+              </ul>
+            </td>
+            <td>Don't forget to try the risotto at the La Pergola.</td>
+          </tr>
+          <tr>
+            <td>Day 2</td>
+            <td>Italy, Florence</td>
+            <td>
+              <ul>
+                <li>Visit Colosseum</li>
+                <li>The Pantheon</li>
+                <li>Trevi Fountain</li>
+              </ul>
+            </td>
+            <td>Don't forget to try the risotto at the La Pergola.</td>
+          </tr>
+        </table><br/><br/>
+
+      <!-- Two images with borders -->
+      
+      <div class="image-with-border">
+        <img src="Images/1690053.png" alt="Image 1" />
+        <img src="Images/279013.png" alt="Image 2" />
+    </div>
+  
   </body>
 </html>
